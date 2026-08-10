@@ -19,6 +19,10 @@ elnino-readiness = "elnino_readiness.cli:main"
 [tool.setuptools.packages.find]
 where = ["src"]
 
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+markers = ["network: marks tests that hit external APIs (deselect with '-m \"not network\"')"]
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
