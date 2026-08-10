@@ -12,3 +12,8 @@ weights:                      # pillar weights for the composite (should sum to 
 thresholds:
   exposure_high: 60
   readiness_low: 50
+chirps:
+  cache_dir: data/raw/chirps
+worldpop:
+  year: 2020
+  cache_dir: data/raw/worldpop
