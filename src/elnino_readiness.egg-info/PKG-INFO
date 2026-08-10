@@ -1,0 +1,18 @@
+Metadata-Version: 2.4
+Name: elnino-readiness
+Version: 0.1.0
+Summary: El Nino readiness-vs-exposure index for the Greater Horn of Africa
+Requires-Python: >=3.10
+Requires-Dist: pandas>=2.0
+Requires-Dist: numpy
+Requires-Dist: pyyaml
+Requires-Dist: matplotlib
+Provides-Extra: geo
+Requires-Dist: geopandas>=0.14; extra == "geo"
+Requires-Dist: rioxarray; extra == "geo"
+Requires-Dist: rasterio; extra == "geo"
+Requires-Dist: xarray; extra == "geo"
+Requires-Dist: requests; extra == "geo"
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: ruff; extra == "dev"

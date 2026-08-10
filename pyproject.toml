@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "elnino-readiness"
+version = "0.1.0"
+description = "El Nino readiness-vs-exposure index for the Greater Horn of Africa"
+requires-python = ">=3.10"
+dependencies = ["pandas>=2.0", "numpy", "pyyaml", "matplotlib"]
+
+[project.optional-dependencies]
+geo = ["geopandas>=0.14", "rioxarray", "rasterio", "xarray", "requests"]
+dev = ["pytest", "ruff"]
+
+[project.scripts]
+elnino-readiness = "elnino_readiness.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "B"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["elnino_readiness"]

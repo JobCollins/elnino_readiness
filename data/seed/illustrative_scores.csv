@@ -1,0 +1,12 @@
+area_id,area_name,country_iso3,admin_level,exposure,readiness
+SS,South Sudan,SSD,0,82,30
+SO,Somalia,SOM,0,90,45
+SD,Sudan,SDN,0,68,25
+ET,Ethiopia,ETH,0,85,55
+ER,Eritrea,ERI,0,60,35
+BI,Burundi,BDI,0,58,42
+KE,Kenya,KEN,0,70,68
+UG,Uganda,UGA,0,62,58
+DJ,Djibouti,DJI,0,55,60
+TZ,Tanzania,TZA,0,50,55
+RW,Rwanda,RWA,0,48,66

@@ -1,0 +1,8 @@
+pandas>=2.0
+numpy
+pyyaml
+matplotlib
+pytest
+ruff
+# For real ingest + choropleth, install the geo extras instead:
+#   pip install -e ".[geo]"

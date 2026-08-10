@@ -1,0 +1,2 @@
+[console_scripts]
+elnino-readiness = elnino_readiness.cli:main

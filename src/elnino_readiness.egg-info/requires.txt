@@ -1,0 +1,15 @@
+pandas>=2.0
+numpy
+pyyaml
+matplotlib
+
+[dev]
+pytest
+ruff
+
+[geo]
+geopandas>=0.14
+rioxarray
+rasterio
+xarray
+requests

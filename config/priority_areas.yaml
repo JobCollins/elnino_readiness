@@ -1,0 +1,15 @@
+# Phase 0 priority set. Start country-level, then drill to admin-2 hotspots.
+countries:
+  - {iso3: SSD, name: South Sudan}
+  - {iso3: SOM, name: Somalia}
+  - {iso3: SDN, name: Sudan}
+  - {iso3: ETH, name: Ethiopia}
+  - {iso3: ERI, name: Eritrea}
+  - {iso3: KEN, name: Kenya}
+  - {iso3: UGA, name: Uganda}
+  - {iso3: BDI, name: Burundi}
+  - {iso3: DJI, name: Djibouti}
+  - {iso3: TZA, name: Tanzania}
+  - {iso3: RWA, name: Rwanda}
+# admin-2 hotspots to prioritise for hand-compiled readiness (fill in):
+hotspots_admin2: []

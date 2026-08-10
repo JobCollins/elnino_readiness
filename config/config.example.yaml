@@ -1,0 +1,14 @@
+# Copy to config/config.yaml and edit. Paths are relative to the repo root.
+region: greater_horn          # IGAD / Greater Horn of Africa
+target_admin_level: 2         # design goal: admin-2 (district); admin-1 is the floor
+paths:
+  seed: data/seed/illustrative_scores.csv
+  raw: data/raw
+  processed: data/processed
+  outputs: outputs
+weights:                      # pillar weights for the composite (should sum to 1.0)
+  exposure: 0.5
+  readiness: 0.5
+thresholds:
+  exposure_high: 60
+  readiness_low: 50
